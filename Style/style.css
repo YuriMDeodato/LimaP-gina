@@ -1,0 +1,151 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: rgb(95, 135, 172);
+}
+header {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+    margin-left: 70px;
+    margin-right: 70px;
+    color: rgb(228, 242, 255);
+    border: solid 3px rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:rgb(19, 73, 122);
+}
+#sociais{
+    background-color:rgb(19, 73, 122);
+    border: solid 2px rgb(0, 0, 0);
+    margin-top: 1%;
+    margin-bottom: 0%;
+    color: #ffffff;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+#sociais li, a, i, ul{
+    background-color:rgb(19, 73, 122);
+}
+#sociais ul{
+    color:rgb(40, 132, 218);
+    color: #ffffff;
+    margin-left: 200px;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#sociais i{
+    color: aquamarine;
+}
+#sociais i:hover{
+    color:rgb(118, 189, 255);
+}
+#sociais li:hover{
+    color:rgb(118, 189, 255);
+}
+#formaçao h3{
+    color: rgb(255, 255, 255);
+    background-color:rgb(19, 73, 122);
+    border: solid 2px black;
+    text-align: center;
+    margin-left: 70px;
+}
+#formaçao p{
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 7%;
+    color: #ffffff
+}
+#dev img{
+    margin-top: 10px;
+    margin-left: 150px;
+    display: flex;
+}
+.exp h3{
+    margin-bottom: 25px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+.exp{
+    color: #ffffff;
+    text-align: center;
+    margin-right: 300px;
+    margin-top: 50px;
+    margin-bottom: 78px;
+}
+#port h3 {
+    border: solid 2px black;
+    text-align: center;
+    margin-right: 300px;
+    font-size: 20px;
+    margin-bottom: 0px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(19, 73, 122);
+}
+.job img {
+    margin: 8px;
+    width: 380px;
+    height: 260px;
+    margin-top: 2%;
+    margin-left: 0%;
+    float: left;
+}
+.job2 img{
+    position: absolute;
+    margin-left: 80px;
+    width: 150px;
+    height: 215px;
+}
+.job3 img{
+    position: relative;
+    margin-left: 110px;
+    margin-top: 30px;
+    width: 90px;
+    height: 90px;
+}
+.job4 img{
+    width: 200px;
+    height: 100px;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+footer p {
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    color: black;
+}
+.quebra {
+    clear: both;
+}
+#pe p{
+    color: rgb(255, 255, 255);
+    border: solid 3px rgb(0, 0, 0);
+    background-color:rgb(19, 73, 122);
+    margin-top: 5%;
+    margin-bottom: 0%;
+    color: #ffffff;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 20px;
+    
+}
+
+
+/* MOBILE: As regras abaixo são apenas para telas acima de 1024 pixels */
+@media (min-width: 1024px) {
+    aside {
+        float: left;
+        width: 20%;
+        padding: 4px;
+        text-align: right;
+    }
+    main {
+        float: right;
+        width: 75%;
+    }
+}
